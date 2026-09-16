@@ -1,0 +1,79 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+code {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.dashboard-box {
+  border: 2px dashed #bbb;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fafafa;
+}
+
+.box-note {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #111;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.card-item {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.status-text {
+  color: #0284c7;
+  font-weight: bold;
+}
+
+.status-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.status-btn:hover {
+  background-color: #1d4ed8;
+}
